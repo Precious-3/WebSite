@@ -1,0 +1,282 @@
+:root {
+    --primary-color: #4CAF50;
+    --hover-color: #45a049;
+    --dark-green: #2E7D32;
+    --light-green: #81C784;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('tractor.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+
+:root {
+    --primary-color: #4CAF50;
+    --hover-color: #45a049;
+    --dark-green: #2E7D32;
+    --light-green: #81C784;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('tractor.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+
+.navbar {
+    background: linear-gradient(to right, #000000, var(--dark-green)) !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.navbar-brand {
+    color: var(--light-green) !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--light-green) !important;
+    transform: translateY(-2px);
+}
+
+.dropdown-menu {
+    background: linear-gradient(to bottom, #000000, var(--dark-green));
+}
+
+.dropdown-item {
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: var(--light-green);
+    color: #000;
+}
+
+.bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('tractor.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/tractor.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+
+h1, h2, h3 {
+    color: var(--light-green);
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, var(--dark-green), var(--light-green));
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, var(--light-green), var(--dark-green));
+    transform: scale(1.05);
+}
+
+footer {
+    background: linear-gradient(to right, #000000, var(--dark-green));
+    color: #fff;
+    padding: 2rem 0;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 56px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%;
+        background: linear-gradient(to bottom, #000000, var(--dark-green));
+        box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar-collapse.show {
+        transform: translateX(0);
+    }
+}
+
+/* Container for the rectangular images */
+.rectangle {
+    width: 450px; /* Adjust the width as needed */
+    height: 250px; /* Adjust the height as needed */
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+/* Rectangular shape */
+.rectangle img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navbar {
+    background: linear-gradient(to right, #000000, var(--dark-green)) !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.navbar-brand {
+    color: var(--light-green) !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--light-green) !important;
+    transform: translateY(-2px);
+}
+
+.dropdown-menu {
+    background: linear-gradient(to bottom, #000000, var(--dark-green));
+}
+
+.dropdown-item {
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: var(--light-green);
+    color: #000;
+}
+
+.bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('tractor.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/tractor.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+
+h1, h2, h3 {
+    color: var(--light-green);
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, var(--dark-green), var(--light-green));
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, var(--light-green), var(--dark-green));
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 56px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%;
+        background: linear-gradient(to bottom, #000000, var(--dark-green));
+        box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar-collapse.show {
+        transform: translateX(0);
+    }
+}
+
+/* Container for the rectangular images */
+.rectangle {
+    width: 450px; /* Adjust the width as needed */
+    height: 250px; /* Adjust the height as needed */
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+/* Rectangular shape */
+.rectangle img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-icon {
+    font-size: 20px; /* Adjust the size as needed */
+    margin-right: 13px; /* Space between icon and text */
+    color: yellow; /* Icon color */
+}
+
+.footer-icon:hover {
+    color: #ffb32d; /* Hover color */
+}
+
+.footer-contact p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
